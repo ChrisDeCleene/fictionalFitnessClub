@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Linked CSS -->
+  <link rel="stylesheet" type="text/css" href="resources/css/reset.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="resources/css/style.css" media="screen">
+  <!-- Link Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Oswald&family=Racing+Sans+One&family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+  <!-- title -->
+  <title>Centennial Athletic Club</title>
+  <meta property='og:title'  content='Centennial Athletic Club'>
+  <meta name='twitter:title' content='Centennial Athletic Club'>
+  <!-- url -->
+  <link rel='canonical'       href='https://chrisdecleene.github.io/fictionalFitnessClub'>
+  <meta property='og:url'  content='https://chrisdecleene.github.io/fictionalFitnessClub'>
+  <meta name='twitter:url' content='https://chrisdecleene.github.io/fictionalFitnessClub'>
+  <!-- description -->
+  <meta name='description'         content='This website is for a fictional fitness club created for my Full Stack Engineer Certification on Codecademy. Click here to check it out or go to my website in the link at the bottom of this page for more of my work!'>
+  <meta property='og:description'  content='This website is for a fictional fitness club created for my Full Stack Engineer Certification on Codecademy. Click here to check it out or go to my website in the link at the bottom of this page for more of my work!'>
+  <meta name='twitter:description' content='This website is for a fictional fitness club created for my Full Stack Engineer Certification on Codecademy. Click here to check it out or go to my website in the link at the bottom of this page for more of my work!'>
+  <!-- image -->
+  <meta property="og:image"  content="https://chrisdecleene.github.io/images/fictionalfitnessclubogimage.png">
+  <meta name="twitter:image" content="https://chrisdecleene.github.io/images/fictionalfitnessclubogimage.png">
+  <!-- Site Favicon -->
+  <link rel="icon" type="image/png" href="resources/images/heart_heartbeat_icon.png" size="32x32" />
+</head>
+<body>
+  <header class="header">
+    <!-- Header Cover with Logo -->
+    <div class="cover">
+      <div></div>
+      <a href=""><img src="resources/images/fictionalfitnesscoverlogo.png" alt=""></a>
+    </div>
+
+    <!-- Nav bar contected to JavaScript for Scrolling -->
+    <nav class="navbar">
+      <a href=""><img class="navbar-img" src="resources/images/fictionalfitnessclublogo.png" alt=""></a>
+      <ul class="nav-menu">
+        <li class="nav-item first-item">
+          <a class="nav-link" href="#about">About Us</a>
+        </li>
+        <li class="nav-item">
+          <div class="dropdown"><a href="#fitness">Training & Services</a>
+            <div class="dropdown-content">
+              <a href="#membership">Membership</a>
+              <a href="#training">Training</a>
+              <a href="#group">Group Fitness</a>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#location">Find Us</a>
+        </li>
+      </ul>
+    </nav>
+      <script src="resources/js/script.js"></script>
+
+  </header>
+
+  <main id="main">
+
+    <section id="slider">
+      <div class="slider-container">
+        <span id="slider-image-1"></span>
+        <span id="slider-image-2"></span>
+        <span id="slider-image-3"></span>
+        <div class="image-container">
+          <img src="resources/images/deadliftslider.jpg" class="slider-image" alt="">
+          <img src="resources/images/squatslider.jpg" class="slider-image" alt="">
+          <img src="resources/images/dumbbellrackslider.jpg" class="slider-image" alt="">
+        </div>
+        <div class="button-container">
+          <a href="#slider-image-1" class="slider-button"></a>
+          <a href="#slider-image-2" class="slider-button"></a>
+          <a href="#slider-image-3" class="slider-button"></a>
+        </div>
+      </div>
+    </section>
+    
+    <section id="about">
+      <h1>About Our Gym</h1>
+      <p>Imperdiet proin fermentum leo vel orci porta. Adipiscing tristique risus nec feugiat in. Sed augue lacus viverra vitae congue eu. Orci dapibus ultrices in iaculis. Praesent elementum facilisis leo vel fringilla est ullamcorper eget nulla. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla. Pretium viverra suspendisse potenti nullam ac. Mi ipsum faucibus vitae aliquet nec. Hendrerit gravida rutrum quisque non tellus orci ac auctor. Cras ornare arcu dui vivamus. Arcu ac tortor dignissim convallis aenean et tortor at. Nisl tincidunt eget nullam non nisi est. Et magnis dis parturient montes nascetur ridiculus mus mauris.</p>
+    </section>
+    
+    <section id="fitness">
+      <h2>Training & Services</h2>
+      <div class="container">
+        <div id="membership" class="box">
+          <a href=""><img src="resources/images/situps.jpg" class="flex-image" alt=""></a>
+          <h3 class="flex-title">Membership</h3>
+        </div>
+        <div id="training" class="box">
+          <a href=""><img src="resources/images/mandeadlifting.jpg" class="flex-image" alt=""></a>
+          <h3 class="flex-title">Training</h3>
+        </div>
+        <div id="group" class="box">
+          <a href=""><img src="resources/images/warmingup.jpg" class="flex-image" alt=""></a>
+          <h3 class="flex-title">Group Fitness</h3>
+        </div>
+      </div>
+    </section>
+    
+    <section id="location">
+      <h2>Locations & Newsletter</h2>
+      <div class="container">
+        <div class="locations">
+          <a href="https://goo.gl/maps/tBQSKaPobCLxCc7P9" target="_blank" class="box">
+            <h3 class="item">Denver West</h3>
+            <p class="item">384 Denver W Pkwy</p>
+            <p class="item">Suite 108</p>
+            <p class="item">Lakewood, Colorado</p>
+          </a>
+          <a href="https://goo.gl/maps/Y42iNdgjvqyw4gsV8" target="_blank" class="box">
+            <h3 class="item">Littleton</h3>
+            <p class="item">5353 South Santa Fe</p>
+            <p class="item">(Northwest Corner)</p>
+            <p class="item">Littleton, Colorado</p>
+          </a>
+        </div>
+        <div class="email">
+          <div>
+            <h3>GET NEWS AND INFORMATION FROM THE FLOOR.</h3>
+            <p>Make your morning email scroll and coffee stronger.</p>
+          </div>
+          <form action="POST">
+            <div class="form">
+              <input class="form-item" type="text" name="firstname" id="firstname" placeholder="First Name" required pattern="[a-zA-Z]{5,20}">
+
+              <input class="form-item" type="text" name="lastname" id="lastname" placeholder="Last Name" required pattern="[a-zA-Z]{5,20}">
+
+              <input class="form-item" type="email" name="email" id="email" placeholder="Email" required>
+
+              <input class="button form-item" type="button" value="Sign Up">
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="subscribe">
+
+    </section>
+
+
+  </main>
+
+  <footer>
+    <div class="social">
+      <a href=""><img src="resources/images/facebooklogo.png" alt="FaceBook Logo"></a>      
+      <a href=""><img src="resources/images/linkedinlogo.png" alt="LinkedIn Logo"></a>
+      <a href=""><img src="resources/images/instagramlogo.png" alt="Instagram Logo"></a>
+      <a href=""><img src="resources/images/twitterlogo.png" alt="Twitter Logo"></a>
+    </div>
+    <div class="copyright">
+      <p>Copyright 2021 - Site Created By <a href="https://chrisdecleene.github.io/ ">Credit Card Chris LLC</a></p>
+    </div>
+  </footer>
+</body>
+</html>
